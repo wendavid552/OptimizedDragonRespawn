@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "club.mcams.optimizedDragonRespawn.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockPatternTestTransformInvoker",
+    "EnderDragonFightMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

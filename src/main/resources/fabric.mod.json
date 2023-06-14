@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+
+  "name": "${name}",
+  "description": "",
+  "authors": [
+    "WenDavid552"
+  ],
+  "contact": {
+    "homepage": "https://www.mcams.club/"
+  },
+
+  "icon": "assets/dragon_optimize/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "club.mcams.optimizedDragonRespawn.OptimizedDragonRespawn"
+    ]
+  },
+  "mixins": [
+    "dragon_optimize.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.4",
+    "minecraft": "${minecraft_dependency}"
+  }
+}
